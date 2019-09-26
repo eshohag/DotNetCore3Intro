@@ -7,11 +7,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorApp", "BlazorApp\Blaz
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MvcApp", "MvcApp\MvcApp.csproj", "{9B73BDA1-4B8E-4BD5-9789-D89823DE69D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntitieApps", "EntitieApps\EntitieApps.csproj", "{A25CD44D-3411-4DAD-A8D3-897090C49F6F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntitieApps", "EntitieApps\EntitieApps.csproj", "{A25CD44D-3411-4DAD-A8D3-897090C49F6F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManagerApps", "ManagerApps\ManagerApps.csproj", "{EFAB78FF-314F-42C1-9E18-F29BF194DBE3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ManagerApps", "ManagerApps\ManagerApps.csproj", "{EFAB78FF-314F-42C1-9E18-F29BF194DBE3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryApps", "RepositoryApps\RepositoryApps.csproj", "{7457DCCF-6E4B-427A-A006-5C6D48CA24C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RepositoryApps", "RepositoryApps\RepositoryApps.csproj", "{7457DCCF-6E4B-427A-A006-5C6D48CA24C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameworkCore", "EntityFrameworkCore\EntityFrameworkCore.csproj", "{8D7F923E-B2F6-44FA-8CFC-19E3FBFC9AB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utilities", "Utilities\Utilities.csproj", "{82C84119-EA8F-44DF-8969-A428150CF304}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{7457DCCF-6E4B-427A-A006-5C6D48CA24C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7457DCCF-6E4B-427A-A006-5C6D48CA24C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7457DCCF-6E4B-427A-A006-5C6D48CA24C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D7F923E-B2F6-44FA-8CFC-19E3FBFC9AB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D7F923E-B2F6-44FA-8CFC-19E3FBFC9AB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D7F923E-B2F6-44FA-8CFC-19E3FBFC9AB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D7F923E-B2F6-44FA-8CFC-19E3FBFC9AB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82C84119-EA8F-44DF-8969-A428150CF304}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82C84119-EA8F-44DF-8969-A428150CF304}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82C84119-EA8F-44DF-8969-A428150CF304}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82C84119-EA8F-44DF-8969-A428150CF304}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
