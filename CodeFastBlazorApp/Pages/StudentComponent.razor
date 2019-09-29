@@ -1,0 +1,42 @@
+﻿@page "/student"
+
+@using CodeFastBlazorApp.Data
+@using EntitieApps
+@inject StudentService studentService
+
+<h3>Students</h3>
+@if (student == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Full Name</th>
+                <th>Department </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var aStudent in student)
+            {
+                <tr>
+                    <td>@aStudent.Id</td>
+                    <td>@aStudent.FullName</td>
+                    <td>@aStudent.Department.DeptName</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+
+@code {
+    private IList<Student> student;
+    protected override void OnInitialized()
+    {
+        student = studentService.GetStudents();
+    }
+}
